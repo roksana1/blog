@@ -20,4 +20,4 @@ validates_attachment_content_type :image, :content_type => ["image/jpg", "image/
     def self.tagged_with(name)
       Tag.find_by_name!(name).articles
     end
-end
+h
